@@ -1,3 +1,4 @@
+"""采集wiki百科上内链网址"""
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import ssl
